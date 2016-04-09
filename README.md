@@ -1,6 +1,3 @@
-# official_icons
-Official icons of HalogenOS which are used everywhere.
-
-Add icons here
-
-![Official logo](https://raw.githubusercontent.com/HalogenOS/official_icons/master/logo/1/icon-black.png)
+![Official logo](http://i.imgur.com/tyw7dEw.png)
+# HalogenOS Media
+HalogenOS official media that are used everywhere,
