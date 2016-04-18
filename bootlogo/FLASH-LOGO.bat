@@ -1,0 +1,1 @@
+fastboot.exe flash LOGO HalogenLogoNEW.bin

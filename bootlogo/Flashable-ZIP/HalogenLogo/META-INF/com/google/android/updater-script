@@ -1,0 +1,6 @@
+ui_print("                     _  _              ");;
+ui_print(" /_/_  /_  _  _  _  / //_`  /  _  _  _ ");;
+ui_print("/ //_|//_//_//_'/ //_/._/  /_,/_//_//_/");;
+ui_print("          _/                     _/    ");;
+package_extract_file("HalogenLogoNEW.bin", "/dev/block/bootdevice/by-name/LOGO");
+ui_print(">Done");
