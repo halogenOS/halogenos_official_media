@@ -1,4 +1,4 @@
-![Demo GIF](https://raw.githubusercontent.com/HalogenOS/halogenos_official_media/XOS-6.0/logo/1/github-banner.png) 
+![Demo GIF](https://raw.githubusercontent.com/HalogenOS/halogenos_official_media/XOS-6.0/charginganim/HalogenCharging.gif) 
 
 
 **Creator:** [sewer56lol](//github.com/sewer56lol)<br />
