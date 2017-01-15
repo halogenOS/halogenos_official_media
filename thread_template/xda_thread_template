@@ -1,0 +1,247 @@
+[img]http://i.imgur.com/jNHzv8C.png[/img]
+
+    [B]
+        [SIZE="4"]Android, Reimagined.[/SIZE]
+        [SIZE="3"]
+            [color="gray"]For the best experience, view the [URL="<thread-url>"]thread[/URL] on a web browser like Chromium or Firefox.
+            Desktop:[color="#1e88e5"] Brilliant.[/color] Mobile: [color="#1e88e5"]Good.[/color] Tapatalk: [color="#1e88e5"]OK. [/color] XDA-Labs: [color="#1e88e5"]Horrible.[/color][/color]
+        [/SIZE]
+    [/B]
+
+[/CENTER]
+
+[center]
+    [img]http://i.imgur.com/9vBBxp6.png[/img]
+
+    [code]
+        YOU are doing modifications to your device.
+        YOU are responsible for what you do.
+        We are not responsible for any damages, data loss or any type of unexpected,
+        bad or damaging results! If you have **SERIOUS** problems with this software,
+        please contact the developers or maintainers. We are not liable for anything
+        bad that happens to your device.
+        As long as you are responsible, some companies such as OnePlus
+        WILL HONOR IT. Some people occasionally describe them as heroes.
+        Don't be stupid and bet on that though, please be responsible for what you do.
+        We prohibit you from overclocking to 1337 GHz thinking, that an OEM would 
+        replace your glorious space heater etc.
+        We recommend you to take the advice above regardless.
+    [/code]
+[/center]
+
+[B][U][SIZE="4"]halogen[color="#1e88e5"]OS[/color] Checklist[/SIZE][/U][/B]
+[B]
+Although no data should be lost or damaged by the flashing process, 
+we advise you to follow the following steps if you are coming from another rom:
+[/B]
+
+[list]
+ [*] Please take a full nandroid backup!
+ [*] Please copy your back up to an external device.
+ [*] Backing up your Internal Storage is also recommended.
+ [*] When completed, please clean flash the build!
+[/list]
+
+Although you usually can dirty flash halogenOS over other ROMs, considering the other
+ROM has the [b]same[/b] Android version, it is not guaranteed. In case of serious
+crashes please do a clean flash.
+
+You [b]can[/b] dirty flash halogenOS 7 (Nougat) over halogenOS 6 (Marshmallow)
+without any problems. Although we can't promise that it [b]will[/b] work for you,
+we can tell you that this has been tested. In fact, @xdvs23 did a dirty flash of
+XOS 7 over XOS 6 and has no problems.
+
+If you get app crashes after dirty flashing over XOS 6 or another ROM, please just
+clear the app data of those apps, and it should work fine then.
+
+[center]
+    [IMG]http://i.imgur.com/XNQ9HSr.png[/IMG]
+    [hide]
+        [SIZE="3"][B][color="#1e88e5"]XOS[/color] is a new generation cutting-edge OS for Android based on Code Aurora Forum releases.[/B]
+
+        [B][SIZE="4"][U]What is [color="#1e88e5"]XOS[/color]?[/U][/SIZE][/B]
+        halogen[color="#1e88e5"]OS[/color], also known as [color="#1e88e5"]XOS[/color] is a new Android ROM which ships with the global aim to
+        become a modular ROM which keeps as high as potentially possible operating
+        performance on your mobile device while still maintaining a sufficient feature
+        base of nice, small and minimal features that would not be available via any
+        external feature base, extension, mod or plugin.
+
+        We hope you have a truly halogenified experience!
+
+        [B][SIZE="4"][U]Internals of [color="#1e88e5"]XOS[/color][/U][/SIZE][/B]
+        At core, the ROM is composed mainly of components from CodeAuroraForums (CAF),
+        featuring only extremely minor set of components from CyanogenMod (CM) which
+        have been added to source in order to allow for better cross-device compatibility.
+
+        [B][SIZE="4"][U]Our [color="#1e88e5"]LOVE[/color] to others[/U][/SIZE][/B]
+        A huge thanks goes to those behind the CodeAuroraForums (CAF), the CyanogenMod
+        organization and all of its
+        contributors for the sources used in the development of the base ROM which we
+        started with inclusive of all the work and dedication their team puts in order to
+        keep us updated on the awesome contributions that they make.
+
+        We will be keen on ensuring that we be up to date with the code from our base sources,
+        with regular ROM updates hopefully coming from time to time.
+
+        Please do not ask for ETA's (else you shall be spooked by Mr Skeltal). Almost all of us are
+        students, and with the current lifestyles and routines we have, it is not that easy to acquire
+        time to develop the ROM, though we'll be sure to keep you updated and release OTAs as
+        soon as they are available and ready for publication. If you want to be really updated quick,
+        then join us on Telegram: [url]http://telegram.me/halogenos[/url]
+
+        Visit our website for features such as: Downloads, Information etc.
+        [color="#00B4E7"][url]http://halogenos.org[/url][/color]
+        (Not finished yet)[/SIZE]
+    [/hide]
+[/center]
+
+[b][SIZE="5"]Common stuff[/SIZE][/b]
+
+The ROM is super stable as of now and we'll maintain a clean and proper ROM.
+
+Known issues are going to be fixed as soon as possible. We don't have infinite time.
+
+[b]Planned features (don't ask for these!): [/b]
+[list]
+  [*] Heads-Up toggle
+  [*] Button actions
+  [*] OTA Updates
+[/list]
+
+[b]Highlights (some are OP2-only): [/b]
+[list]
+  [*] No QS Bug!!!
+  [*] OnePlus Camera
+  [*] Working Vulkan
+  [*] Reworked Lockscreen Visualizer
+  [*] New implementation of button backlight
+  [*] Modern Services -> Google Assistant etc.
+  [*] Substratum
+  [*] Full media support (FFMPEG, video codecs, ...)
+  [*] Great Audio quality, no distortions, no crap
+  [*] Optimized many portions of the system including surfaceflinger, inputflinger, System Server, and more
+  [*] Super fast boot
+  [*] Superuser-capable
+  [*] Great battery life
+  [*] Soundmod support (not all soundmods work on Nougat, it's not our fault)
+  [*] addon.d support (backups your gapps etc. when flashing new build - don't wipe system before flashing!)
+  [*] init.d support
+  [*] BusyBox
+  [*] Disabled Access Time for all partitions (We don't need access time. When access time is enabled, it will store the exact date of the access when a file is accessed, what just wastes write cycles (in theory) and has impact in I/O performance.)
+  [*] Super smooth
+  [*] Signature Spoofing toggle (Support for MicroG)
+  [*] Support for trusted third-party WebViews like Chrome
+  [*] Long press on home for assist toggle
+  [*] Security Patches in kernel
+  [*] KCal support
+  [*] Kernel optimizations
+  [*] OpenGapps (Mini/Micro/Nano recommended) and Banks GApps support
+  [*] Offline Gestures support (super fast recoginition)
+  [*] Alert Slider
+  [*] Full KeyHandler & KeyDisabler support
+  [*] Dexpreopt for faster (first) boot time and less space consumption on data partition
+  [*] Upgrade & Boot the ROM in just 5 minutes - no more endless waiting for flashing a new build
+  [*] Very high compatibility with other ROMs
+[/list]
+
+[b]How to update the ROM:[/b]
+
+[list=1]
+  [*] Download the latest zip
+  [*] Reboot into TWRP (Please use official TWRP)
+  [*] [b]Do not[/b] wipe anything
+  [*] Flash the ROM
+  [*] Flash SuperSU 2.78 SR5 or newer if you want (Download 2.79 [URL="https://s3-us-west-2.amazonaws.com/supersu/download/zip/SuperSU-v2.79-201612051815.zip"]here[/URL])
+  [*] Reboot
+[/list]
+
+You [b]don't[/b] need to wipe Cache/Dalvik.
+You [b]don't[/b] need to flash gapps again. There is some magic going on which keeps your GApps. Just make sure that you [b]don't wipe system[/b] before flashing.
+You [b]don't[/b] need more than 5 minutes.
+
+[b]How to install the ROM for the first time:[/b]
+
+[list=1]
+  [*] Download the latest zip
+  [*] Reboot into TWRP (Please use official TWRP)
+  [*] Wipe system, data and cache (If you want to try a dirty flash, dont wipe anything)
+  [*] Flash the ROM
+  [*] Flash gapps if you want
+  [*] Flash SuperSU 2.78 SR5 or newer if you want (Download 2.79 [URL="https://s3-us-west-2.amazonaws.com/supersu/download/zip/SuperSU-v2.79-201612051815.zip"]here[/URL])
+  [*] Reboot
+[/list]
+
+[center]
+    [img]http://i.imgur.com/SIEGLFz.png[/img]
+    [hide]
+        [URL="http://forum.xda-developers.com/devdb/project/?id=15210#screenshots"]Screenshots[/URL]
+
+        Currently right now, halogen[color="#1e88e5"]OS[/color] will only include the[B] stock Android theme[/B].
+        We are going to use a custom theme as soon as that theme is working perfectly fine.
+    [/hide]
+[/center]
+
+[center]
+    [img]http://i.imgur.com/oVsA5gC.png[/img]
+    [hide]
+        [SIZE="3"][B][MENTION=5325978]regalstreak[/MENTION][/B][/SIZE]
+        [SIZE="3"][B][MENTION=6584600]xdvs23[/MENTION][/B][/SIZE] (actually xdevs23, but that was already taken on XDA)
+        [SIZE="3"][B][MENTION=4671636]sewer56lol[/MENTION][/B][/SIZE]
+        [SIZE="3"][B][MENTION=6013245]jbw716[/MENTION][/B][/SIZE]
+        [SIZE="3"][B][MENTION=254736]marpe[/MENTION][/B][/SIZE]
+        [SIZE="3"][B][MENTION=264093]dango99[/MENTION][/B][/SIZE]
+        [SIZE="3"][B][MENTION=6641107]hunter_bruhh[/MENTION][/B][/SIZE]
+        [SIZE="3"][B][MENTION=6552280]MSF-Jarvis[/MENTION][/B][/SIZE]
+        [SIZE="3"][B][MENTION=5782959]keessonnema[/MENTION][/B][/SIZE]
+    [/hide]
+[/center]
+
+[center]
+    [img]http://i.imgur.com/L71fMeJ.png[/img]
+    [hide]
+        [SIZE="4"][U][B]ROM Download Links[/B][/U][/SIZE]
+        [SIZE="3"]
+            [SIZE="4"][URL="http://halogenos.org/upload/ROM/halogenOS/7/"]Download halogenOS now[/URL][/SIZE]
+            halogen[color="#1e88e5"]OS[/color] (All Builds) | [URL="<dev-db-thread-link>"][noparse]XDA:DevDB[/noparse] Download Section[/URL]
+            [URL="https://www.androidfilehost.com/?fid=24533103863141173"]- Restore Original Bootlogo -[/URL]
+        [/SIZE]
+
+        [SIZE="4"][U][B]ROM Sources[/B][/U][/SIZE]
+        [SIZE="3"]All sources incl. ROM, Kernel, Trees @ [URL="https://github.com/halogenOS/"][color="#00B4E7"]halogen[color="#1e88e5"]OS[/color] GitHub Organisation[/color][/URL].[/SIZE]
+## DEVICE SPECIFIC        
+        [b]OnePlus 2[/b]
+        [SIZE="3"][URL="http://github.com/halogenOS/android_kernel_oneplus_msm8994"]Kernel source[/URL][/SIZE]
+        [SIZE="3"][URL="http://github.com/halogenOS/android_device_oneplus_oneplus2"]Device tree[/URL][/SIZE]
+        [SIZE="3"][URL="http://github.com/halogenOS/android_vendor_oneplus_oneplus2"]Vendor tree[/URL][/SIZE]
+    [/hide]
+[/center]
+
+[center]
+    [img]http://i.imgur.com/VNuPas2.png[/img]
+    [hide]
+        [U][B][SIZE="4"][URL="https://www.youtube.com/watch?v=ZXsQAXx_ao0"]Join[/URL] our[/SIZE][/B][/U]
+        [SIZE="3"][URL="http://telegram.me/halogenos"]Telegram group[/URL][/SIZE]
+        [SIZE="3"][URL="https://telegram.me/halogenOSNews"]Telegram News Channel[/URL][/SIZE]
+        [SIZE="3"][URL="https://telegram.me/halogenOSOT"]Telegram Off-Topic Group[/URL][/SIZE]
+    [/hide]
+[/center]
+
+[center]
+    [SIZE="4"][COLOR="#0099FF"]Credits[/COLOR][/SIZE]
+    [URL="https://www.codeaurora.org/"]CodeAurora[/URL]
+    [URL="http://www.cyanogenmod.org/"]CyanogenMod[/URL]
+## DEVICE SPECIFIC
+    [URL="https://github.com/Grarak"]Grarak[/URL]
+##
+    And everyone else who contributed and helps us!
+    In case you feel left out here, please contact us!
+[/center]
+
+[center]
+    [img]http://i.imgur.com/V07ZOkF.png[/img]
+    [hide]
+        [U][SIZE="4"][B]Try the links here if you can't click on them (XDA Labs) etc.[/B][/SIZE][/U]
+        [SIZE="3"][URL="<Link to AFH Folder>"]AndroidFileHost[/URL][/SIZE]
+        [SIZE="3"][URL="http://halogenos.org"]Webpage (Down Currently)[/URL][/SIZE]
+    [/hide]
+[/center]
