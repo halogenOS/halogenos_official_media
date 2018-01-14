@@ -2,7 +2,7 @@
     [B]
         [SIZE="4"]Android, Reimagined.[/SIZE]
         [SIZE="3"]
-            [color="gray"]For the best experience, view the [URL="http://forum.xda-developers.com/oneplus-2/orig-development/rom-halogenos-oneplus-2-t3377799"]thread[/URL] on a web browser like Chromium or Firefox.
+            [color="gray"]For the best experience, view the thread on a web browser like Chromium or Firefox.
             Desktop:[color="#1e88e5"] Brilliant.[/color] Mobile: [color="#1e88e5"]Good.[/color] Tapatalk: [color="#1e88e5"]OK. [/color] XDA-Labs: [color="#1e88e5"]Horrible.[/color][/color]
         [/SIZE]
     [/B]
@@ -75,90 +75,62 @@ we advise you to follow the following steps if you are coming from another ROM:
 [/B][code]
  * Please take a full [I]Nandroid[/I] backup!
  * Please copy your back up to an external device.
- * Backing up your [I]Internal Storage[/I] is also recommended.
- * When completed, [I]clean flash[/I] the build!
+ * Back up your [I]Internal Storage[/I]
+ * When completed, [I]clean flash[/I] the build (format using fastboot --wipe-and-use-fbe)
 [/code]
 
 Although you usually may dirty flash halogenOS over other ROMs, considering the other
 ROM is built upon the [b]same[/b] Android version, it is not guaranteed.
 In case of performance issues or crashes please do a clean flash.
 
-You [b]can[/b] dirty flash halogenOS 7 (Nougat) over halogenOS 6 (Marshmallow)
-without any problems. Although we cannot promise that it [b]will[/b] work for you,
-although we don't recommend it, we can tell you that this has been tested. [/SIZE]
+You [b]can[/b] dirty flash halogenOS 8 over halogenOS 7, however, don't bother us with issues then.[/SIZE]
 [/hide]
 [img]http://i.imgur.com/cEr5ft2.png[/img]
 [hide][SIZE="3"]
 Overall as a ROM, XOS is very stable. Our mission statement has always been of maintaining a clean and properly maintained ROM.
 We take proper priority with ensuring that performance and stability are put first, features are considered an extra topping on the cake.
 
-[I]More details are marked by square brackets [x] and listed below[/I]
-
 [B]All Builds/Devices/Maintainers[/B]
-Substratum Theming Support
-Custom Button Backlight Implementation
+Substratum Theming Support (coming soon)
 Custom Lockscreen Visualizer
-SuperUser Capable
-Various Battery Optimizations
-Dexpreopt Enabled
 Offline Gesture Recognition
 Upstream Security Patches
-Support for [I]`addon.d`[/I] and [I]`init.d`[/I]
-Equipped with latest Busybox
-Application Signature Spoofing Toggle
-Support for 3rd Party Webviews
+Support for [I]`addon.d`[/I]
+Application Signature Spoofing Toggle (for microG)
 Various Kernel Optimizations
-Support for Modern Services e.g. Google Assistant
 Long Press Home for Assist
-Custom Hotplugging
-(DEV) Full KeyHandler & KeyDisabler Support
-Enhanced Booting Speed [SIZE="1"][1][/SIZE]
-System UX & Performance Optimizations [SIZE="1"][2][/SIZE]
-Minor Audio Tweaks [SIZE="1"][3][/SIZE]
-Enhanced Media Support [SIZE="1"][4][/SIZE]
-I/O Tweaks [SIZE="1"][5][/SIZE]
+System UX & Performance Optimizations
+Audio Tweaks
+Enhanced Media Support (Video, Audio, ...)
+I/O Tweaks
 
-[B]Select Devices/Maintainer Dependent[/B]
-KCAL Support
-Functional Vulkan API Implementation [SIZE="1"][6][/SIZE]
-OnePlus Camera
-Alert Slider Support
+[B]<Your device>[/B]
+<Your additional features>
 
-[code]
-[1] Performed via implementation of additional multi-threading on boot etc.
-[2] Tweaked [I]`surfaceflinger`, `inputflinger`, `System Server`[/I] & more...
-[3] We do not ship 3rd party EQs or other [I]crap[/I] you may sometimes find.
-      Our sound system is completely clean and thus provides great soundmod
-      support if that's what one really wants.
-[4] Enabled via FFMPEG & additional codecs.
-[5] Example: Disabled Access Time
-      | Waste of write cycles and impacts I/O performance on random writes.
-[6] Vulkan is available if the chipset/SOC's GPU supports Vulkan.
-[/code]
 [/SIZE][/hide]
 [img]http://i.imgur.com/cSF0Se1.png[/img][SIZE="3"]
 [hide]
 [b]Installing for the first time[/b]
 [code]
 * Download the current version of XOS for your device.
-* Reboot into a compatible Android Recovery solution. (Note: We recommend TWRP)
-* Wipe [B]'/system', '/data' & '/cache'[/B].
-   [I](Optional: For `Dirty Flash`, do not wipe anything)[/I]
+* Reboot into a compatible Android Recovery solution. (e. g. TWRP)
+* Wipe [B]'/system' & '/cache'[/B], and of course wipe /data[/B].
+   [I](For `Dirty Flash`, do not wipe anything)[/I]
 * Select the appropriate ROM zip and flash the current ROM build.
 * Want Google Apps? Obtain and flash the latest GApps from http://opengapps.org/
-* Flash any other system modifications you may want e.g. SuperSU/phh's SuperUser.
+* Flash any other system modifications you may want
 * Reboot.
 [/code]
 
 [b]Manually updating the ROM[/b]
-XOS ships with an OTA updater built-in which should automate the downloading and flashing process,
+XOS ships with an OTA updater built-in (soon) which should automate the downloading and flashing process,
 however should your wish be to manually update the ROM, you should be our guest.
 [code]
 * Download the current version of XOS for your device.
 * Reboot into a compatible Android Recovery solution. (Note: We recommend TWRP)
 * [b]Please do not[/b] wipe anything, including Cache/Dalvik/ART, the ROM has you covered.
 * Select the appropriate ROM zip and flash the current ROM build.
-* Reflash any system modifications e.g. SuperSU/phh's SuperUser.
+* Reflash any system modifications that do not survive updated (everything that is not addon.d-capable)
 * Reboot.
 [/code]
 
@@ -189,17 +161,19 @@ You [b]do not[/b] need more than 5 minutes.
     [img]http://i.imgur.com/L71fMeJ.png[/img]
     [hide]
         [SIZE="4"][U][B]Download Links[/B][/U][/SIZE][SIZE="3"]
-            [SIZE="4"][URL="http://halogenos.org/upload/ROM/halogenOS/7/"]Download XOS Here[/URL][/SIZE]
-            halogen[color="#1e88e5"]OS[/color] (All Builds) | [URL="http://forum.xda-developers.com/devdb/project/?id=15210#downloads"][noparse]XDA:DevDB[/noparse] Download Section[/URL]
-            [URL="https://www.androidfilehost.com/?fid=24533103863141173"]- Restore Original Bootlogo -[/URL]
+            [SIZE="4"]
+                [URL="https://sourceforge.net/projects/halogenos/files/cheeseburger/"]Download halogenOS[/URL]
+                [URL="http://halogenos.download"]Alternative link (archive)[/URL]
+            [/SIZE]
+            You can find all builds on our website, for that view our [URL="http://halogenos.download/"]download page[/URL].
         [/SIZE]
         [SIZE="4"][U][B]ROM Sources[/B][/U][/SIZE]
         [SIZE="3"]All Sources | ROM, Kernel, Trees etc. @ [URL="https://github.com/halogenOS/"][color="#00B4E7"]XOS GitHub Organisation[/color][/URL].[/SIZE]
 
-        [SIZE="3"][b]OnePlus 2[/b][/SIZE]
-        [SIZE="3"][URL="http://github.com/halogenOS/android_kernel_oneplus_msm8994"]Kernel source[/URL][/SIZE]
-        [SIZE="3"][URL="http://github.com/halogenOS/android_device_oneplus_oneplus2"]Device tree[/URL][/SIZE]
-        [SIZE="3"][URL="http://github.com/halogenOS/android_vendor_oneplus_oneplus2"]Vendor tree[/URL][/SIZE]
+        [SIZE="3"][b]<Your device>[/b][/SIZE]
+        [SIZE="3"][URL="http://github.com/..."]Kernel source[/URL][/SIZE]
+        [SIZE="3"][URL="http://github.com/..."]Device tree[/URL][/SIZE]
+        [SIZE="3"][URL="http://github.com/..."]Vendor tree[/URL][/SIZE]
     [/hide]
     [img]http://i.imgur.com/VNuPas2.png[/img]
     [hide]
@@ -210,14 +184,12 @@ You [b]do not[/b] need more than 5 minutes.
     [/hide]
     [img]http://i.imgur.com/vaBlkUB.png[/img]
     [hide]
-    [SIZE="3"][URL="https://www.codeaurora.org/"]Code Aurora Forums[/URL], [URL="http://www.cyanogenmod.org/"]CyanogenMod[/URL], [URL="https://github.com/Grarak"]Grarak[/URL]
+    [SIZE="3"][URL="https://www.codeaurora.org/"]Code Aurora Forums[/URL], [URL="https://www.lineageos.org/"]LineageOS[/URL], ...
     And everyone else who contributed and helps us!
     In case you feel left out here, please contact us![/SIZE]
     [/hide]
     [img]http://i.imgur.com/V07ZOkF.png[/img]
     [hide]
-        [SIZE="3"][URL="https://www.androidfilehost.com/?w=files&flid=58637"]AndroidFileHost[/URL][/SIZE]
         [SIZE="3"][URL="http://halogenos.org"]XOS Webpage[/URL][/SIZE]
     [/hide]
 [/center]
-
